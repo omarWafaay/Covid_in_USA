@@ -1,1 +1,1 @@
-web: gunicorn mainheroku:server
+web: gunicorn main:server
