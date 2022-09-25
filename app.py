@@ -37,6 +37,7 @@ app.layout = html.Div(children=
                       )
 
 
+
 @app.callback(Output(component_id='fig1', component_property='figure'),
               Input(component_id='dropdown', component_property='value'))
 def update_graph(state):
