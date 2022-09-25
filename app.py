@@ -24,7 +24,7 @@ app = dash.Dash()
 server = app.server  # configure the server
 app.layout = html.Div(children=
                       [html.Div('Hello Heroku From Dash.'),
-                       html.H1('My first success full app on heroku'),
+                       html.H1('My first successfull app on heroku'),
                        html.Div(
                            dcc.Dropdown(id='dropdown',
                                         options=ops
