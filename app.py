@@ -23,8 +23,8 @@ ops = df_melt['Province_State'].unique()
 app = dash.Dash()
 server = app.server  # configure the server
 app.layout = html.Div(children=
-                      [html.Div('Hello World From Dash.'),
-                       html.H1('H1 tag here'),
+                      [html.Div('Hello Heroku From Dash.'),
+                       html.H1('My first success full app on heroku'),
                        html.Div(
                            dcc.Dropdown(id='dropdown',
                                         options=ops
